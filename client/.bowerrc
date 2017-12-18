@@ -1,4 +1,1 @@
-{
-  "directory": "public/components",
-  "json": "bower.json"
-}
+{"directory": "src/libs"}

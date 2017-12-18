@@ -1,9 +1,23 @@
 {
-  "name": "client",
-  "version": "0.0.1",
+  "name": "client-service",
+  "description": "Client Service for Student Management System",
+  "main": "app.js",
+  "authors": [
+    "tremainekbuchanan@gmail.com"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/tremainebuchanan/sms-app",
   "ignore": [
     "**/.*",
     "node_modules",
-    "components"
-  ]
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bulma": "^0.6.1",
+    "angular": "^1.6.7",
+    "angular-route": "^1.6.7",
+    "font-awesome": "^4.7.0"
+  }
 }

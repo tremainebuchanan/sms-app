@@ -1,10 +1,23 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="sms">
   <head>
     <meta charset="utf-8">
     <title>Student Management System Front End</title>
+    <link rel="stylesheet" href="libs/bulma/css/bulma.css" />
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.css" />
+    <link rel="stylesheet" href="css/main.css" />
   </head>
-  <body>
-
+  <body class="ng-view">
+  <script src="libs/angular/angular.js"></script>
+  <script src="libs/angular-route/angular-route.min.js"></script>
+  <!-- inject:js -->
+  <script src="app/modules/app/index.module.js"></script>
+  <script src="app/modules/dashboard/index.module.js"></script>
+  <script src="app/modules/login/index.module.js"></script>
+  <script src="app/modules/dashboard/dash.ctrl.js"></script>
+  <script src="app/modules/login/login.ctrl.js"></script>
+  <script src="app/modules/dashboard/dash.service.js"></script>
+  <script src="app/modules/login/login.service.js"></script>
+  <!-- endinject -->
   </body>
 </html>
